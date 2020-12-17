@@ -1,6 +1,6 @@
 package com.example.community.controller;
 
-import com.example.community.dto.AccessTokenDto;
+import com.example.community.dto.AccessTokenDTO;
 import com.example.community.dto.GithubUser;
 
 
@@ -40,7 +40,7 @@ public class AuthorizeController {
     public String callback(@RequestParam(name = "code") String code,
                            @RequestParam(name = "state" )String state,
                            HttpServletResponse response){
-        AccessTokenDto accessTokenDto = new AccessTokenDto();
+        AccessTokenDTO accessTokenDto = new AccessTokenDTO();
         accessTokenDto.setClient_id(clientId);
         accessTokenDto.setClient_secret(clientSeceret);
         accessTokenDto.setCode(code);
@@ -52,6 +52,7 @@ public class AuthorizeController {
             User user = new User();
             String token = UUID.randomUUID().toString();
             user.setToken(token);
+            System.out.println(githubUser.getName());
             user.setName(githubUser.getName());
             user.setAccountId(String.valueOf(githubUser.getId()));
             user.setGmtCreate(System.currentTimeMillis());
