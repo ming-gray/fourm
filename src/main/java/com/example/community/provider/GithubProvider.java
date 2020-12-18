@@ -19,8 +19,7 @@ public class GithubProvider {
 
         RequestBody body = RequestBody.create(mediaType, JSON.toJSONString(accessTokenDTO));
         Request request = new Request.Builder()
-                .url("https://gitee.com/oauth/token?grant_type=authorization_code&code="+accessTokenDTO.getCode()+"&client_id="+accessTokenDTO.getClient_id()+"&redirect_uri="+accessTokenDTO.getRedirect_uri()
-                        +"&client_secret"+accessTokenDTO.getClient_secret()+"&state="+accessTokenDTO.getState())
+                .url("https://github.com/login/oauth/access_token")
                 .post(body)
                 .build();
         try (Response response = client.newCall(request).execute()) {
@@ -39,8 +38,8 @@ public class GithubProvider {
     public GithubUser getUser(String accessToken){
         OkHttpClient client = new OkHttpClient();
         Request request = new Request.Builder()
-                .url("https://gitee.com/api/v5/user?access_token=" + accessToken)
-                //.header("Authorization","token "+accessToken)
+                .url("https://api.github.com/user?access_token=")
+                .header("Authorization","token "+accessToken)
                 .build();
         try {
             Response response = client.newCall(request).execute();

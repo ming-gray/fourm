@@ -7,6 +7,6 @@ public class GithubUser {
     private String name;
     private String bio;
     private Long id;
-    private String avartarUrl;
+    private String avartar_url;
 
 }
