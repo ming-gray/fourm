@@ -1,0 +1,104 @@
+2020-12-22 14:15:54.908  INFO 6852 --- [restartedMain] c.e.community.CommunityApplication       : Starting CommunityApplication using Java 12.0.2 on LAPTOP-EFLJE5CP with PID 6852 (C:\Users\ming\Documents\学习资料\community\target\classes started by ming in C:\Users\ming\Documents\学习资料\community)
+2020-12-22 14:15:54.918  INFO 6852 --- [restartedMain] c.e.community.CommunityApplication       : No active profile set, falling back to default profiles: default
+2020-12-22 14:15:55.138  INFO 6852 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-12-22 14:15:55.190  INFO 6852 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-12-22 14:15:55.254  WARN 6852 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-12-22 14:15:59.179  INFO 6852 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-12-22 14:15:59.213  INFO 6852 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-22 14:15:59.214  INFO 6852 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2020-12-22 14:15:59.559  INFO 6852 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-22 14:15:59.559  INFO 6852 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4367 ms
+2020-12-22 14:16:01.135  INFO 6852 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-22 14:16:01.315  INFO 6852 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-12-22 14:16:03.098  INFO 6852 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-12-22 14:16:03.196  INFO 6852 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-12-22 14:16:03.235  INFO 6852 --- [restartedMain] c.e.community.CommunityApplication       : Started CommunityApplication in 9.516 seconds (JVM running for 12.981)
+2020-12-22 18:10:09.324  INFO 18096 --- [restartedMain] c.e.community.CommunityApplication       : Starting CommunityApplication using Java 12.0.2 on LAPTOP-EFLJE5CP with PID 18096 (C:\Users\ming\Documents\学习资料\community\target\classes started by ming in C:\Users\ming\Documents\学习资料\community)
+2020-12-22 18:10:09.327  INFO 18096 --- [restartedMain] c.e.community.CommunityApplication       : No active profile set, falling back to default profiles: default
+2020-12-22 18:10:09.392  INFO 18096 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-12-22 18:10:09.392  INFO 18096 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-12-22 18:10:09.418  WARN 18096 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-12-22 18:10:10.829  INFO 18096 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-12-22 18:10:10.841  INFO 18096 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-22 18:10:10.841  INFO 18096 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2020-12-22 18:10:10.979  INFO 18096 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-22 18:10:10.979  INFO 18096 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1585 ms
+2020-12-22 18:10:11.719  INFO 18096 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-22 18:10:11.816  INFO 18096 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-12-22 18:10:11.952  INFO 18096 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-12-22 18:10:12.446  INFO 18096 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-12-22 18:10:12.488  INFO 18096 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-12-22 18:10:12.500  INFO 18096 --- [scheduling-1] c.e.community.schedule.HotTagTasks       : hotTagSchedule start Tue Dec 22 18:10:12 CST 2020
+2020-12-22 18:10:12.505  INFO 18096 --- [restartedMain] c.e.community.CommunityApplication       : Started CommunityApplication in 3.766 seconds (JVM running for 5.234)
+2020-12-22 22:22:53.627  INFO 14436 --- [restartedMain] c.e.community.CommunityApplication       : Starting CommunityApplication using Java 12.0.2 on LAPTOP-EFLJE5CP with PID 14436 (C:\Users\ming\Documents\学习资料\community\target\classes started by ming in C:\Users\ming\Documents\学习资料\community)
+2020-12-22 22:22:53.631  INFO 14436 --- [restartedMain] c.e.community.CommunityApplication       : No active profile set, falling back to default profiles: default
+2020-12-22 22:22:53.693  INFO 14436 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-12-22 22:22:53.693  INFO 14436 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-12-22 22:22:53.713  WARN 14436 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-12-22 22:22:55.498  INFO 14436 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-12-22 22:22:55.513  INFO 14436 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-22 22:22:55.514  INFO 14436 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2020-12-22 22:22:55.672  INFO 14436 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-22 22:22:55.673  INFO 14436 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1980 ms
+2020-12-22 22:22:56.392  INFO 14436 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-22 22:22:56.477  INFO 14436 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-12-22 22:22:56.617  INFO 14436 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-12-22 22:22:57.111  INFO 14436 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-12-22 22:22:57.157  INFO 14436 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-12-22 22:22:57.182  INFO 14436 --- [scheduling-1] c.e.community.schedule.HotTagTasks       : hotTagSchedule start Tue Dec 22 22:22:57 CST 2020
+2020-12-22 22:22:57.189  INFO 14436 --- [restartedMain] c.e.community.CommunityApplication       : Started CommunityApplication in 4.073 seconds (JVM running for 5.612)
+2020-12-22 22:22:57.232  INFO 14436 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-12-22 22:22:57.410  INFO 14436 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-22 22:22:57.411  INFO 14436 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-12-22 22:22:57.412  INFO 14436 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2020-12-22 22:22:57.906  INFO 14436 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-12-22 22:22:58.081  INFO 14436 --- [scheduling-1] c.e.community.schedule.HotTagTasks       : hotTagSchedule stop Tue Dec 22 22:22:58 CST 2020
+2020-12-22 22:22:58.366  WARN 14436 --- [http-nio-8080-exec-1] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [251] milliseconds.
+2020-12-22 22:24:58.426  INFO 2932 --- [restartedMain] c.e.community.CommunityApplication       : Starting CommunityApplication using Java 12.0.2 on LAPTOP-EFLJE5CP with PID 2932 (C:\Users\ming\Documents\学习资料\community\target\classes started by ming in C:\Users\ming\Documents\学习资料\community)
+2020-12-22 22:24:58.442  INFO 2932 --- [restartedMain] c.e.community.CommunityApplication       : No active profile set, falling back to default profiles: default
+2020-12-22 22:24:58.504  INFO 2932 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-12-22 22:24:58.504  INFO 2932 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-12-22 22:24:58.520  WARN 2932 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-12-22 22:24:59.619  INFO 2932 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-12-22 22:24:59.619  INFO 2932 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-22 22:24:59.619  INFO 2932 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2020-12-22 22:24:59.744  INFO 2932 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-22 22:24:59.744  INFO 2932 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1240 ms
+2020-12-22 22:25:00.251  INFO 2932 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-22 22:25:00.329  INFO 2932 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-12-22 22:25:00.423  INFO 2932 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-12-22 22:25:00.787  INFO 2932 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-12-22 22:25:00.825  INFO 2932 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-12-22 22:25:00.835  INFO 2932 --- [scheduling-1] c.e.community.schedule.HotTagTasks       : hotTagSchedule start Tue Dec 22 22:25:00 CST 2020
+2020-12-22 22:25:00.839  INFO 2932 --- [restartedMain] c.e.community.CommunityApplication       : Started CommunityApplication in 2.863 seconds (JVM running for 3.979)
+2020-12-22 22:25:00.865  INFO 2932 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-12-22 22:25:00.975  INFO 2932 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-12-22 22:25:01.053  INFO 2932 --- [scheduling-1] c.e.community.schedule.HotTagTasks       : hotTagSchedule stop Tue Dec 22 22:25:01 CST 2020
+2020-12-22 22:25:13.582  INFO 2932 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-22 22:25:13.583  INFO 2932 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-12-22 22:25:13.584  INFO 2932 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2020-12-22 22:25:13.802  WARN 2932 --- [http-nio-8080-exec-1] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [170] milliseconds.
+2020-12-22 22:28:11.104  INFO 17012 --- [restartedMain] c.e.community.CommunityApplication       : Starting CommunityApplication using Java 12.0.2 on LAPTOP-EFLJE5CP with PID 17012 (C:\Users\ming\Documents\学习资料\community\target\classes started by ming in C:\Users\ming\Documents\学习资料\community)
+2020-12-22 22:28:11.104  INFO 17012 --- [restartedMain] c.e.community.CommunityApplication       : No active profile set, falling back to default profiles: default
+2020-12-22 22:28:11.170  INFO 17012 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-12-22 22:28:11.171  INFO 17012 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-12-22 22:28:11.188  WARN 17012 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-12-22 22:28:12.345  INFO 17012 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-12-22 22:28:12.361  INFO 17012 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-22 22:28:12.361  INFO 17012 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2020-12-22 22:28:12.470  INFO 17012 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-22 22:28:12.470  INFO 17012 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1298 ms
+2020-12-22 22:28:13.084  INFO 17012 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-22 22:28:13.147  INFO 17012 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-12-22 22:28:13.261  INFO 17012 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-12-22 22:28:13.698  INFO 17012 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-12-22 22:28:13.745  INFO 17012 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-12-22 22:28:13.745  INFO 17012 --- [scheduling-1] c.e.community.schedule.HotTagTasks       : hotTagSchedule start Tue Dec 22 22:28:13 CST 2020
+2020-12-22 22:28:13.761  INFO 17012 --- [restartedMain] c.e.community.CommunityApplication       : Started CommunityApplication in 3.082 seconds (JVM running for 4.351)
+2020-12-22 22:28:13.794  INFO 17012 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-12-22 22:28:13.927  INFO 17012 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-12-22 22:28:14.007  INFO 17012 --- [scheduling-1] c.e.community.schedule.HotTagTasks       : hotTagSchedule stop Tue Dec 22 22:28:14 CST 2020
+2020-12-22 22:28:40.502  INFO 17012 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-22 22:28:40.503  INFO 17012 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-12-22 22:28:40.505  INFO 17012 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2020-12-22 22:28:40.756  WARN 17012 --- [http-nio-8080-exec-1] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [193] milliseconds.
