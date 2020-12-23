@@ -206,4 +206,13 @@ public class QuestionService {
         }).collect(Collectors.toList());
         return questionDTOS;
     }
+
+    public void deleteQuestion(Long id, Long userId) {
+        Question question = questionMapper.selectByPrimaryKey(id);
+        if (question.getCreator().equals(userId)){
+            questionMapper.deleteByPrimaryKey(id);
+        }else {
+            throw new CustomizeException(CustomizeErrorCode.IS_NOT_LEGAL);
+        }
+    }
 }

@@ -28,6 +28,7 @@ public class UserService {
             updateUser.setGmtModified(System.currentTimeMillis());
             updateUser.setName(user.getName());
             updateUser.setToken(user.getToken());
+            updateUser.setBio(user.getBio());
             UserExample example = new UserExample();
             example.createCriteria().andIdEqualTo(dbUser.getId());
             userMapper.updateByExampleSelective(updateUser, example);

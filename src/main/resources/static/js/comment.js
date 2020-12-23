@@ -126,3 +126,16 @@ function selectTag(e) {
         }
     }
 }
+function deleteQuestion(qid) {
+    console.log("qid", qid);
+    if (confirm("此操作不可逆，你确定要删除吗？")) {
+        $.ajax({
+            type: "GET",
+            url: "/question/delete/"+qid,
+            success: function () {
+                alert("删除成功");
+                window.location.href="/";
+            }
+        });
+    }
+}
