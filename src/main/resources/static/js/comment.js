@@ -51,7 +51,6 @@ function comment(e) {
 function collapseComments(e) {
     var id = e.getAttribute("data-id");
     var comments = $("#comment-" + id);
-
     // 获取一下二级评论的展开状态
     var collapse = e.getAttribute("data-collapse");
     if (collapse) {

@@ -32,8 +32,6 @@ public class HotTagCache {
                 }
             }
         });
-
-
         List<String> sortedTags = new ArrayList<>();
 
         HotTagDTO poll = priorityQueue.poll();
